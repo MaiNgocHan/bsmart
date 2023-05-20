@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="icon" href="img/icon-title-course-4.png" type="image/png" />
+    <title>Amazing</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.min.css" />
+    <link rel="stylesheet" href="css/collaborators.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors/linericon/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  
+</head>
+<body>
+
+    <!-- ===== banner ===== -->
+    <!-- <div class="banner">
+      <div class="chu">
+        <h1 style="color: #ff3700">Danh sách khoá học</h1> 
+        <p style="color: white">Trang chủ > Tạo khoá học</p>
+      </div>
+    </div>  -->
+
+    <!-- ===== Banner ===== -->
+    
+
+    <section class="cat_product_area p-3" style="background-color: rgba(249, 247, 247, 0.903);">
+        <div class="container p-5">
+          <div class="px-5">
+            
+              <!-- //////Thông tin khoá học -->
+              <div class="border mt-3 mx-5" style="background-color: #EF6319;">
+                <div class=" pt-3 pl-3 pr-3">
+                  <div class="text-center" style="color: white; font-size: x-large; font-weight: bold;">
+                    <p >Cộng tác viên</p>
+                    
+                    
+                  </div>
+                  <!-- <div  class="ti-angle-down ml-auto"></div> -->
+                </div>
+                
+                <div  style="background-color: rgb(255, 255, 255);">
+                  <nav class="p-4 " id="main_menu" style="border: 1px solid rgb(43, 43, 43); ">
+                    <form method="post" action="url">
+                        <!-- /////// name-->
+                        <div class="mb-4 ">
+                          <label for="name" style="color: black;">Họ và tên</label> <br/>
+                          <input style="width: 100%; height: 40px; padding-left: 10px;"
+                                      class="input" type="text" id="name" placeholder="Họ và tên" name="name" oninput="validateName()"/>
+                          <small></small> </br>
+                        </div>
+                        
+                        
+                        <!-- ///////date -->
+                        <div class="mb-4" >
+                          <label style="color: black; ">Ngày tháng năm sinh</label></br>
+                          <input  type="date" id="birth_date" 
+                                  style="width: 100%; height: 40px; padding-left: 10px;" oninput="checkDate(); ">
+                          </br><small id="small_date"></small>
+                          
+                        </div>
+                        
+                        <!-- ///////// btn -->
+                        <label style="color: black;">Nghề nghiệp:</label> <br/>
+                        <div  style="display: flex; color: black;">
+                            <select class="form-select" onchange="toggleInput()"
+                                    aria-label="Default select example" style= "padding-left: 10px;">
+                                <option hidden>--Chọn--</option>
+                                <option value="1" id="doing">Đang đi làm</option>
+                                <option value="2" id="studying">Đang đi học</option>
+                            </select>
+                        </div>
+                        <br/>
+                        <div id="company_div" style="display:none" class=" mb-4">
+                            <label for="company_name" style="color: black;">Tên công ty</label> <br/>
+                            <input style="width: 100%; height: 40px; padding-left: 10px;"
+                                   class="input" type="text" id="company_name" placeholder="Tên công ty đang làm" name="name" oninput="validateCompanyName()"/>
+                            <small id="company_small"></small> </br>
+                        </div>
+                        
+                        <div id="schools_div" style="display:none"  class="search-container mb-4">
+                            <label for="schools_name" style="color: black;">Tên trường</label> <br/>
+                            <input style="width: 100%; height: 40px; padding-left: 10px;"
+                                   class="input" type="text" id="schools_name" placeholder="Tên trường đang học" name="name"/>
+                            <ul class="search-dropdown" id="schools_dropdown"></ul>       
+                            <!-- <small id="schools_small"></small> </br> -->
+                            <!-- <div id="schools_dropdown" class="dropdown">
+                                <ul class="dropdown-content" id="schools_list">
+                                </ul>
+                              </div> -->
+                              
+                        </div>
+
+                        <!-- /////// phone -->
+                        <div class="mb-4">
+                          <label for="phone" style="color: black;">Số điện thoại</label> <br/>
+                          <input id="phone" placeholder="Số điện thoại" 
+                                  style="width: 100%; height: 40px; padding-left: 10px;"
+                                  class="input " type="text" oninput="validatePhone()"/>
+                          <small id="phone-error" class="text-danger mb-2"></small></br>
+                        </div>
+                        
+
+                        <!-- ////////////////// email-->
+                        <div class="mb-4"></div>
+                          <label class="" style="color: black;" for="email">Email</label> <br/>
+                          <input class="input mb-1" type="url" id="email" placeholder="Email"
+                                  style="width: 100%; height: 40px; padding-left: 10px;" oninput="validateEmail()"/>
+                          <small id="email-error" class="text-danger"></small>  </br>
+                        </div>
+                      
+                        <button class="btn-orange">Đăng ký</button>
+                    </form>
+                  </nav>
+                </div>
+                
+          </div> 
+
+        </div>
+
+    </section>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="collaborators.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    </body>
+</html>

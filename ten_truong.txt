@@ -1,0 +1,241 @@
+Đại học Quốc Gia Hà Nội
+Đại học Công nghệ (ĐHQG Hà Nội)
+Đại học Khoa học Tự nhiên (ĐHQG Hà Nội)
+Đại học Khoa học XH và NV (ĐHQG Hà Nội)
+Đại học Kinh tế (ĐHQG Hà Nội)
+Đại học Ngoại ngữ (ĐHQG Hà Nội)
+Khoa Luật (ĐHQG Hà Nội)
+Đại học Giáo dục (ĐHQG Hà Nội)
+Khoa Quốc tế (ĐHQG Hà Nội)
+Đại học Bách khoa Hà Nội
+Đại học Công đoàn
+Đại học Công nghệ Giao thông vận tải
+Đại học Công nghệ và Quản lý Hữu nghị
+Đại học Công nghiệp Hà Nội
+Đại học Công nghiệp Việt Hung
+Đại học Dược Hà Nội
+Đại học Đại Nam
+Đại học Điện lực
+Đại học Đông Đô
+Đại học FPT
+Đại học Giao thông vận tải
+Đại học Hà Nội
+Đại học Hòa Bình
+Đại học Khoa học và Công nghệ Hà Nội
+Đại học Kinh doanh và Công nghệ Hà Nội
+Đại học Kinh tế Kỹ thuật Công nghiệp
+Đại học Kinh tế Quốc dân
+Đại học Kiến trúc Hà Nội
+Đại học Kỹ thuật Lê Quý Đôn
+Đại học Lao động Xã hội
+Đại học Lâm nghiệp
+Đại học Luật Hà Nội
+Đại học Mỏ Địa chất Hà Nội
+Đại học Mỹ thuật Công nghiệp
+Đại học Mỹ thuật Việt Nam
+Đại học Ngoại thương
+Đại học Nguyễn Trãi
+Đại học Nội vụ Hà Nội
+Đại học Nông nghiệp Hà Nội
+Đại học Phòng cháy chữa cháy
+Đại học Phương Đông
+Đại học Quốc tế Bắc Hà
+Đại học Sân khấu Điện ảnh
+Đại học Sư phạm Hà Nội
+Đại học Sư phạm Nghệ thuật Trung ương
+Đại học Sư phạm Thể dục thể thao Hà Nội
+Đại học Tài chính Ngân hàng Hà Nội
+Đại học Tài nguyên và Môi trường Hà Nội
+Đại học Thành Đô
+Đại học Thành Tây
+Đại học Thăng Long
+Đại học Thủy lợi
+Đại học Thương mại
+Đại học Văn hóa Hà Nội
+Đại học Văn hóa Nghệ thuật Quân đội
+Đại học Xây dựng
+Đại học Y Hà Nội
+Đại học Y tế Công cộng
+Trường Sĩ quan Pháo binh
+Trường Sĩ quan Phòng hóa
+Trường Sĩ quan Lục quân 1
+Đại học Quốc Gia TP. Hồ Chí Minh
+Đại học Bách Khoa - ĐHQG TP.HCM
+Đại học Khoa học Tự nhiên - ĐHQG TPHCM
+Đại học KH XH và NV - ĐHQG TP.HCM
+Đại học Quốc tế - ĐH Quốc gia TP.HCM
+Đại học Công nghệ Thông tin - ĐHQG TP.HCM
+Đại học Kinh tế - Luật - ĐHQG TP.HCM
+Khoa Y - ĐHQG TP.HCM
+Đại học Cảnh sát nhân dân
+Đại học Công nghệ Sài Gòn
+Đại học Công nghệ thông tin Gia Định
+Đại học Công nghiệp TP.HCM
+Đại học Công nghiệp Thực phẩm TP.HCM
+Đại học Giao thông vận tải TP.HCM
+Đại học Giao thông vận tải - Cơ sở 2
+Đại học Hoa Sen
+Đại học Hùng Vương
+Đại học Kiến trúc TP.HCM
+Đại học Kinh tế - Tài chính TP.HCM
+Đại học Kinh tế TP.HCM
+Đại học Công nghệ TP.HCM (HUTECH)
+Đại học Lao động xã hội - Cơ sở II
+Đại học Luật TP.HCM
+Đại học Mở TP.HCM
+Đại học Mỹ thuật TP.HCM
+Đại học Ngân hàng TP.HCM
+Đại học Ngoại ngữ - Tin học TP.HCM
+Đại học Ngoại thương - Cơ sở Tp.HCM
+Đại học Nguyễn Tất Thành
+Đại học Nông Lâm TP.HCM
+Đại học Sài Gòn
+Đại học Sân khấu Điện ảnh TP.HCM
+Đại học Sư phạm Kỹ thuật TP.HCM
+Đại học Sư phạm TP.HCM
+Đại học Sư phạm TDTT TP.HCM
+Đại học Tài chính – Marketing
+Đại học Tài nguyên và Môi trường Tp.HCM
+Đại học Thể dục Thể thao TP.HCM
+Đại học Tôn Đức Thắng
+Đại học Văn hóa TP.HCM
+Đại học Y Dược TP.HCM
+Đại học Y khoa Phạm Ngọc Thạch
+Đại học Quốc tế Hồng Bàng
+Đại học Quốc tế Sài Gòn
+Đại học Văn Hiến
+Đại học Văn Lang
+Đại học Việt - Đức
+Đại học Thái Nguyên
+Đại học Kinh tế - QTKD (ĐH Thái Nguyên)
+Đại học Kỹ thuật Công nghiệp (ĐH Thái Nguyên)
+Đại học Nông lâm (ĐH Thái Nguyên)
+Đại học Sư phạm (ĐH Thái Nguyên)
+Đại học Y Dược (ĐH Thái Nguyên)
+Đại học Sư phạm Hà Nội 2
+Đại học Sư phạm Kỹ thuật Hưng Yên
+Đại học Sư phạm Kỹ thuật Nam Định
+Đại học Sư phạm Kỹ thuật Vinh
+Đại học Tài chính - Quản trị kinh doanh
+Đại học Tây BắcĐại học CNTT và TT (ĐH Thái Nguyên)
+Đại học Khoa học (ĐH Thái Nguyên)
+Khoa Ngoại ngữ (ĐH Thái Nguyên)
+Đại học Chu Văn An
+Đại học Công nghệ Đông Á
+Đại học Công nghệ Vạn Xuân
+Đại học Công nghiệp Quảng Ninh
+Đại học Công nghiệp Việt Trì
+Đại học Dân lập Hải Phòng
+Đại học Dân lập Lương Thế Vinh
+Đại học Điều dưỡng Nam Định
+Đại học Hà Hoa Tiên
+Đại học Hà Tĩnh
+Đại học Hải Phòng
+Đại học Hàng hải
+Đại học Hoa Lư
+Đại học Hồng Đức
+Đại học Hùng Vương
+Đại học Kinh tế Kỹ thuật Hải Dương
+Đại học Kỹ thuật Y tế Hải Dương
+Đại học Nông Lâm Bắc Giang
+Đại học Quảng Bình
+Đại học Sao Đỏ
+Đại học Thành Đông
+Đại học Thái Bình
+Đại học Thể dục Thể thao Bắc Ninh
+Đại học Trưng Vương
+Đại học Việt Bắc
+Đại học Vinh
+Đại học Y Hải Phòng
+Đại học Y Dược Thái Bình
+Đại học Y khoa Vinh
+ĐẠI HỌC HUẾ
+Khoa Giáo dục Thể chất - ĐH Huế
+Khoa Du lịch - ĐH Huế
+Đại học Ngoại ngữ - ĐH Huế
+Đại học Kinh tế - ĐH Huế
+Đại học Nông Lâm - ĐH Huế
+Đại học Nghệ thuật - ĐH Huế
+Đại học Sư phạm - ĐH Huế
+Đại học Khoa học - ĐH Huế
+Đại học Y Dược - ĐH Huế
+Phân hiệu ĐH Huế tại quảng Trị
+Khoa Luật - ĐH Huế
+Học viện Âm nhạc Huế
+Đại học Phú Xuân - Huế
+Đại học Đà Nẵng
+Đại học Sư phạm - ĐH Đà nẵng
+Đại học Bách Khoa - ĐH Đà Nẵng
+Đại học Kinh tế - ĐH Đà Nẵng
+Đại học Ngoại ngữ - ĐH Đà Nẵng
+Phân hiệu ĐH Đà Nẵng tại Kon Tum
+Đại học An Giang
+Đại học Bạc Liêu
+Đại học Phan Châu Trinh
+Đại học Phan Thiết
+Đại học Phú Yên
+Đại học Phạm Văn Đồng
+Đại học Quang Trung
+Đại học Quảng Nam
+Đại học Quốc tế Miền Đông
+Đại học Quy NhơnĐại học Bà Rịa - Vũng Tàu
+Đại học Bình Dương
+Đại học Cần Thơ
+Đại học Công nghệ Đồng Nai
+Đại học Cửu Long
+Đại học Duy Tân
+Đại học Đà Lạt
+Đại học Đông Á
+Đại học Đồng Nai
+Đại học Đồng Tháp
+Đại học Kiên Giang
+Đại học Kiến trúc Đà Nẵng
+Đại học Kinh tế Công nghiệp Long An
+Đại học Kinh tế Kỹ thuật Bình Dương
+Đại học Kỹ thuật - Công nghệ Cần Thơ
+Đại học Lạc Hồng
+Đại học Nha Trang
+Đại học Sư phạm Kỹ thuật Vĩnh Long
+Đại học Tài chính Kế toán
+Đại học Tân Tạo
+Đại học Tây Đô
+Đại học Tây Nguyên
+Đại học Thái Bình Dương
+Đại học Thể dục Thể thao Đà Nẵng
+Đại học Thông tin Liên lạc
+Đại học Thủ Dầu Một
+Đại học Tiền Giang
+Đại học Trà Vinh
+Đại học Võ Trường Toản
+Đại học Xây dựng miền Tây
+Đại học Xây dựng miền Trung
+Đại học Y Dược Cần Thơ
+Đại học Yersin Đà Lạt
+Trường Sĩ quan Công binh (ĐH Ngô Quyền)
+Trường Sĩ quan Không quân
+Học viện Âm nhạc Huế
+Học viện Âm nhạc Quốc gia Việt Nam
+Học viện An ninh nhân dân
+Học viện Báo chí Tuyên truyền
+Học viện Cảnh sát nhân dân
+Học viện Chính sách và Phát triển
+Học viện Công nghệ Bưu chính Viễn thông
+Học viện Hải quân
+Học viện Hành chính Quốc gia
+Học viện CN Bưu chính VT - CS Tp.HCM
+Học viện Hàng không Việt Nam
+Học viện Hậu cần
+Học viện Khoa học quân sự
+Học viện Kỹ thuật Mật mã
+Học viện Ngân hàng
+Học viện Ngoại giao
+Học viện Nông nghiệp Việt Nam
+Học viện Phòng không Không quân
+Học viện Phụ nữ Việt Nam
+Học viện Quản lý Giáo dục
+Học viện Quân y
+Học viện Tài chính
+Học viện Thanh Thiếu niên Việt Nam
+Học viện Y Dược học cổ truyền Việt Nam
+Nhạc viện TP.HCM
+Viện Đại học Mở Hà Nội

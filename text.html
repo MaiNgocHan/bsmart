@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Rolation luck</title>
+    <style>
+
+          html {
+              line-height: 1.5;
+              -webkit-text-size-adjust: 100%;
+              -moz-tab-size: 4;
+              -o-tab-size: 4;
+              tab-size: 4;
+              font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+              font-feature-settings: normal;
+              font-variation-settings: normal
+          }
+
+          body {
+              margin: 0;
+              line-height: inherit
+          }
+
+          /* .message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} */
+
+
+
+
+          #infomation-customer {
+            width: 355px;
+            height: 495px;
+            border-radius: 5px;
+            /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+            position: fixed;
+            top: 10px;
+            left: 560px;
+            z-index: 999;
+            border:2px rgb(255 255 255) solid;
+             display: none;  
+          }
+
+          #Prize-announcement{
+            width: 360px;
+            height: 310px;
+            border-radius: 5px;
+            /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+            position: fixed;
+            top: 10px;
+            left: 560px;
+            z-index: 999;
+            border:10px rgb(255 255 255) solid;
+            display: none;
+        
+          }
+
+          #list-winn{
+            width: 560px;
+            height: 310px;
+            border-radius: 5px;
+            /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+            position: fixed;
+            top: 10px;
+            left: 450px;
+            z-index: 999;
+            border:2px rgb(255 255 255) solid;
+
+            display: none;
+          }
+          
+
+                .hidden {
+        display: none;
+      }
+
+
+
+        #info{
+            background-color: #c0392b;
+            width: 355px;
+            height: 495px;
+            margin-top:0px;
+            margin-left: 0px;
+            border-radius: 5px;
+            position: absolute;
+            
+        }
+
+        .dis-prize{
+          background-color: #c0392b;
+            width: 360px;
+            height: 310px;
+            margin-top:0px;
+            margin-left: 0px;
+            border-radius: 5px;
+            position: absolute;
+        }
+
+        .list-winner{
+          background-color: #c0392b;
+            width: 560px;
+            height: 310px;
+            margin-top:0px;
+            margin-left: 0px;
+            border-radius: 5px;
+            position: absolute;
+        }
+
+        .text-info{
+            --tw-text-opacity: 1;
+            color: rgb(253 224 71 / var(--tw-text-opacity));
+            font-weight: 800    ;
+            font-size: 1.4rem;
+            line-height: 1.75rem;
+            text-align: center;
+            margin-top: 30px;
+            margin-left: 7px;
+            position: absolute;
+        }
+
+        .text-infooo{
+          --tw-text-opacity: 1;
+            color: rgb(253 224 71 / var(--tw-text-opacity));
+            font-weight: 800    ;
+            font-size: 1.4rem;
+            line-height: 1.75rem;
+            text-align: center;
+            margin-top: 30px;
+            margin-left: 130px;
+            position: absolute;
+        }
+        .name{
+            width: 320px;
+            height: 50px;
+            border-radius: 5px;
+            margin-left: 10px;
+            font-family: inherit;
+            font-size: 20px;
+            font-weight: inherit;
+            line-height: inherit;
+            color: inherit;
+            margin-top: 120px;
+           
+   
+        }
+
+        #phone{
+            width: 320px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 40px;
+            font-family: inherit;
+            font-size: 20px;
+            font-weight: inherit;
+            line-height: inherit;
+            color: inherit;
+            margin-left: 10px;
+
+        }
+
+        .text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    margin-top: 100px;
+    margin-left: 61px;
+    font-size: 24px;
+}
+
+.text-centerr {
+  margin-left:22px;
+  margin-top: -10px;
+  font-size: 13px;
+}
+
+        #email{
+            width: 320px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top:40px;
+            font-family: inherit;
+            font-size: 20px;
+            font-weight: inherit;
+            line-height: inherit;
+            color: inherit;
+            margin-left: 10px;
+  
+        }
+
+        .btn-join{
+            --tw-text-opacity: 1;
+            color: rgb(185 28 28 / var(--tw-text-opacity));
+            --tw-bg-opacity: 1;
+             background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+             width: 320px;
+             height: 50px;
+             border-radius: 5px;
+             margin-left: 10px;
+             margin-top: 40px;
+             font-weight: 700;
+             font-size: 20px;
+        }
+
+        .btn-comfirm{
+          --tw-text-opacity: 1;
+            color: rgb(185 28 28 / var(--tw-text-opacity));
+            --tw-bg-opacity: 1;
+             background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+             width: 280px;
+             height: 50px;
+             border-radius: 5px;
+             margin-left: 35px;
+             margin-top:-10px;
+             font-weight: 700;
+             font-size: 20px;
+        }
+
+        .name::placeholder {
+        text-align: center;
+        }
+        #phone::placeholder {
+        text-align: center;
+        }
+        #email::placeholder {
+        text-align: center;
+        }
+
+        #spannyVi{
+            --tw-text-opacity: 1;
+           color: rgb(250 204 21 / var(--tw-text-opacity));
+          margin-left: 150px;
+           font-size: 20px;
+           position: fixed;
+           margin-top: 5px;
+           margin-left: 100px;
+        }
+
+        #phone-error-message{
+            display: none;
+            --tw-text-opacity: 1;
+           color: rgb(250 204 21 / var(--tw-text-opacity));
+           position: fixed;
+           margin-left: 60px;
+           font-size: 20px;
+           margin-top: 5px;
+        }
+
+        #email-error-message{
+            --tw-text-opacity: 1;
+           color: rgb(250 204 21 / var(--tw-text-opacity));
+           position: fixed;
+           margin-left: 100px;
+           font-size: 20px;
+           margin-top: 2px;
+        }
+
+        .gift-container{
+          width: 600px;
+          height: 2000px;
+          --tw-bg-opacity: 1;
+          background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+          margin-left: 430px;
+          margin-top: -10px;
+        }
+        
+        
+
+        #img-logo{
+           max-width: 200px;
+          height: 150px;
+          margin-top: 10px;
+          margin-left: 200px;
+        }
+
+        #slogan{
+          max-width: 400px;
+          height: 100px;
+          margin-top: 10px;
+          margin-left: 100px;
+        }
+
+        #percent{
+          max-width: 400px;
+          height: 100px;
+          margin-top: 15px;
+          margin-left: 100px;
+        }
+
+        #list-win{
+          --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / .25);
+         --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+          box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),
+          var(--tw-shadow);
+          color: #c0392b;
+          font-weight: 700;
+          font-size: 1.25rem;
+         line-height: 1.75rem;
+         text-align:center;
+         height: 50px;
+         border-radius:20px;
+         width: 300px;
+         margin-left: 150px;
+         margin-top: 0px;
+         display: none;
+        }
+
+        #head-gift{
+            width: 500px;
+          height: 150px;
+          margin-top: 10px;
+          margin-left: 50px;
+        }
+
+        #full-gifts{
+          margin-top: -6px;
+          margin-left: 100px;
+          width: 390px;
+          height: 650px;
+          background-color: aliceblue;
+          display: flex;
+          align-items: center;
+          flex-wrap:wrap;
+          justify-content: space-between;
+        }
+
+        .ramdom-gift{
+          flex-basis: 33.33%; 
+          margin-top: -80px;
+        }
+
+        .gift-img{
+          width: 100px;
+          height: 200px;
+          padding-left: 15px;
+          padding-top: 12px;
+        }
+
+        .img{
+          margin-top: -135px;
+          position: absolute;
+        }
+
+        .img-1{
+          margin-top: -95px;
+          position: absolute;
+        }
+
+       
+
+        #lists{
+          margin-top: 50px;
+          width: 200px;
+          height: 30px;
+          margin-left:200px;
+        }
+
+        #discount{
+          margin-top:-10px;
+          width: 600px;
+          height: 300px;
+          margin-left:-5px;
+        }
+
+        #follow{
+          margin-top: 50px;
+          width: 300px;
+          height: 30px;
+          margin-left:150px;
+        }
+
+        .social{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top:10px;
+        }
+
+        #facebook{
+          --tw-bg-opacity: 1;
+           background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+           width: 120px;
+           height: 120px;
+           border-radius:50%;
+           margin-left:-250px;
+           position: absolute;
+        }
+
+        .fa-facebook{
+          margin-top:20px;
+          margin-left: 20px;
+          position: absolute;
+        font-size: 80px;
+        }
+
+        #youtube{
+          --tw-bg-opacity: 1;
+           background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+           width: 120px;
+           height: 120px;
+           border-radius:50%;
+           margin-left:30px;
+        }
+
+        .fa-youtube{
+          margin-top:20px;
+          margin-left: 15px;
+          position: absolute;
+        font-size: 80px;
+        color:red;
+        }
+
+        #linkin{
+          position: absolute  ;
+          --tw-bg-opacity: 1;
+           background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+           width: 120px;
+           height: 120px;
+           border-radius:50%;
+           margin-left:330px;
+        }
+
+        .fa-linkedin{
+          margin-top:20px;
+          margin-left: 25px;
+          position: absolute;
+        font-size: 80px;
+        color: #0033FF;
+        }
+        #gift-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+.gift.disabled {
+  pointer-events: none;
+}
+
+.img-1 {
+  transition: transform 0.3s ease;
+}
+
+.img-1:hover {
+  transform: scale(1.1); /* Điều chỉnh tỷ lệ phóng to phù hợp */
+}
+
+
+.img{
+  transition: transform 0.3s ease;
+}
+
+.img:hover {
+  transform: scale(1.1); /* Điều chỉnh tỷ lệ phóng to phù hợp */
+}
+
+.gift-img{
+  transition: transform 0.3s ease;
+}
+
+.gift-img:hover {
+  transform: scale(1.1);
+}
+
+.social div {
+  transition: transform 0.3s ease;
+}
+
+.social div:hover {
+  transform: scale(1.1);
+}
+
+table {
+  margin-left: 7px;
+  width: 545px;
+  border-collapse: collapse;
+  margin-top: 70px;
+  border-radius: 5px;
+  background-color: blue;
+  table-layout: fixed;  
+}
+
+
+td {
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+#tr1{
+  --tw-text-opacity: 1;
+    background-color: rgb(253 224 71 / var(--tw-text-opacity));
+}
+
+#tr2{
+  background-color: white;
+}
+
+
+
+
+
+@media (max-width:767px) {
+  #Prize-announcement {
+    width: 360px;
+    height: 310px;
+    border-radius: 5px;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+    position: absolute;
+    top: 10px;
+    left: 560px;
+    z-index: 999;
+    border: 2px rgb(255 255 255) solid;
+    display: none;
+    margin-left: -547px;
+    margin-top: 59px;
+}
+
+#list-winn {
+    width: 376px;
+    height: 345px;
+    border-radius: 5px;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    z-index: 999;
+    border: 2px rgb(255 255 255) solid;
+    display: none;
+}
+
+.list-winner {
+    background-color: #c0392b;
+    width: 375px;
+    height: 343px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.text-infooo {
+    --tw-text-opacity: 1;
+    color: rgb(253 224 71 / var(--tw-text-opacity));
+    font-weight: 800;
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 65px;
+    position: absolute;
+}
+
+
+table {
+    margin-left: 7px;
+    width: 360px;
+    border-collapse: collapse;
+    margin-top: 39px;
+    border-radius: 5px;
+    background-color: blue;
+    table-layout: fixed;
+}
+
+
+
+  .gift-container{
+    width:378px;
+    margin-left:-3px;
+    height: 1569px;
+  }
+
+  #img-logo{
+    margin-left:35px;
+    max-width: 329px;
+  }
+
+  #slogan{
+    margin-left: 60px;
+    max-width: 275px;
+  }
+
+  #percent {
+    max-width: 281px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+#list-win{
+  margin-left: 52px;
+}
+
+#head-gift {
+    width: 298px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 44px;
+}
+
+#full-gifts {
+    margin-top: -5px;
+    margin-left: 61px;
+    width: 268px;
+    height: 380px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+.ramdom-gift {
+    flex-basis: 33.33%;
+    margin-top: -40px;
+}
+
+.gift-img {
+    width: 61px;
+    height: 110px;
+    padding-left: 20px;
+
+}
+.img {
+    margin-top: -77px;
+}
+
+.img-1 {
+    margin-top: -53px;
+}
+
+#lists {
+    margin-top: 50px;
+    width: 143px;
+    height: 30px;
+    margin-left: 117px;
+}
+
+#discount {
+  width: 389px;
+}
+
+
+#follow {
+    margin-top: 50px;
+    width: 214px;
+    height: 30px;
+    margin-left: 96px;
+}
+
+#facebook {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    margin-left: -158px;
+    position: absolute;
+}
+
+
+.fa-facebook {
+    margin-top: 4px;
+    margin-left: 3px;
+    position: absolute;
+    font-size: 63px;
+}
+
+#youtube {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.fa-youtube {
+    margin-top: 10px;
+    margin-left: 5px;
+    position: absolute;
+    font-size: 56px;
+    color: red;
+}
+
+#linkin {
+    position: absolute;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    margin-left: 205px;
+}
+
+.fa-linkedin {
+    margin-top: 9px;
+    margin-left: 12px;
+    position: absolute;
+    font-size: 55px;
+    color: #0033FF;
+}
+
+
+}
+
+
+/* iphone xr */ 
+@media only screen and (min-device-width: 414px) and (max-device-width: 819px) {
+  .gift-container {
+    width: 416px;
+  }
+
+  #img-logo {
+    margin-left: 39px;
+    max-width: 351px;
+}
+
+#slogan {
+    margin-left: 73px;
+
+}
+
+
+#percent {
+    margin-left: 68px;
+}
+
+#head-gift {
+    margin-left: 61px;
+}
+
+#full-gifts {
+    margin-left: 76px;
+ 
+}
+
+#lists {
+    margin-left: 141px;
+}
+
+#discount {
+    margin-left: 14px;
+}
+
+#follow {
+    margin-top: 50px;
+    width: 214px;
+    height: 30px;
+    margin-left: 110px;
+}
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 390px) and (-webkit-device-pixel-ratio: 3){
+  .gift-container {
+    width: 389px;
+  }
+}
+
+@media only screen and (min-width:800px) and (max-width: 890px) {
+ 
+  .gift-container {
+    width: 416px;
+  }
+
+  #img-logo {
+    margin-left: 42px;
+    max-width: 329px;
+}
+
+#slogan {
+    margin-left: 71px;
+    max-width: 275px;
+}
+
+#percent {
+    max-width: 281px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 63px;
+}
+
+#head-gift {
+    width: 298px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+
+#full-gifts{
+  margin-left: 76px;
+}
+
+#lists {
+    margin-top: 50px;
+    width: 143px;
+    height: 30px;
+    margin-left: 140px;
+}
+
+
+#discount {
+    margin-left: 20px;
+}
+
+#follow {
+    margin-top: 50px;
+    width: 214px;
+    height: 30px;
+    margin-left: 119px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px){
+  .gift-container {
+    width: 814px;
+    margin-left: 4px;
+}
+
+
+#img-logo {
+    margin-left: 188px;
+    max-width: 474px;
+}
+
+#slogan {
+    margin-left: 203px;
+    max-width: 430px;
+}
+
+#percent {
+    max-width: 364px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 224px;
+}
+
+#percent {
+    max-width: 364px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 241px;
+}
+
+#full-gifts {
+    margin-left: 140px;
+    width: 515px;
+    margin-top: -4px;
+}
+
+#head-gift {
+    width: 646px;
+    height: 200px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 57px;
+}
+
+.gift-img {
+    width: 144px;
+    height: 200px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#Prize-announcement{
+  left: 242px;
+}
+
+
+#list-win {
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / .25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    color: #c0392b;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+    height: 52px;
+    border-radius: 20px;
+    width: 326px;
+    margin-left: 245px;
+    margin-top: 0px;
+    display: none;
+}
+
+#lists {
+    margin-top: 39px;
+    width: 327px;
+    height: 60px;
+    margin-left: 243px;
+}
+#discount {
+    margin-top: -10px;
+    width: 748px;
+    height: 300px;
+  
+}
+
+#follow {
+    margin-top: 294px;
+    width: 490px;
+    height: 48px;
+    margin-left: -597px;
+    position: absolute;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: -25px;
+}
+
+
+#list-winn {
+    width: 560px;
+    height: 310px;
+    border-radius: 5px;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+    position: fixed;
+    top: 10px;
+    left: 158px;
+    z-index: 999;
+    border: 2px rgb(255 255 255) solid;
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    </style>
+</head>
+<body>
+     <form action="" id="infomation-customer">
+            <div id="info">
+                 
+                    <h3 class="text-info">
+                        Đăng ký thông tin để tham gia
+                    </h3>
+                    <div id="name-input">
+                        <input type="text" class="name" id="Tiếng_Việt" placeholder="Nhập họ tên">
+                        <span style="display:block;" id="spannyVi"></span>
+                    </div>
+
+                    <div id="phone-input">
+                        <input type="text" id="phone" placeholder="Nhập số điện thoại">
+                        <p id="phone-error-message" >Số điện thoại không hợp lệ!</p>
+                    </div>
+
+                    <div id="email-input">
+                        <input type="text" id="email" placeholder="Nhập email">
+                        <p id="email-error-message"></p>
+                    </div>
+
+                    <button class="btn-join">
+                        Tham gia ngay
+                    </button>
+
+
+                    
+                 
+                 </h4>
+            </div>
+     </form>
+
+     <div class="gift-container">
+          <div id="list-img">
+            <img id="img-logo" src="/img/logo-bsmart.png">
+            <img id="slogan" src="/img/bsmart2.png">
+            <img id="percent" src="/img/bsmart3.png">
+          </div>
+        
+
+          <button id="list-win">Danh sách trúng thưởng</button>
+
+          <img src="/img/bsmart4.png" id="head-gift">
+
+          <div id="full-gifts">
+            <!-- gift 1-3 -->
+            <div class="ramdom-gift">
+              <img class="gift-img" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+            <div class="ramdom-gift">
+              <img class="gift-img" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+            <div class="ramdom-gift">
+              <img class="gift-img" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+          
+            <!-- gift 4-6 -->
+            <div class="ramdom-gift">
+              <img class="gift-img img" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+            <div class="ramdom-gift">
+              <img class="gift-img img" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+            <div class="ramdom-gift">
+              <img class="gift-img img" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+          
+            <div class="ramdom-gift">
+              <img class="gift-img img-1" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+            <div class="ramdom-gift">
+              <img class="gift-img img-1" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+            <div class="ramdom-gift">
+              <img class="gift-img img-1" src="/img/gift.png">
+              <div class="discount-info"></div>
+            </div>
+          </div>
+          
+
+          <img id="lists" src="/img/danh-sach.png">
+
+          <img id="discount" src="/img/list.png">
+
+          <img src="/img/theo-doi.png" alt="" id="follow">
+
+          <div class="social">
+            <div id="facebook">
+              <a href="https://www.facebook.com/bsmart.edu.vn">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+
+            <div id="youtube">
+              <a href="https://www.youtube.com/channel/UCxuIkuRJkam2Ii3xPehiirw">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+
+            <div id="linkin">
+              <a href="https://www.youtube.com/channel/UCxuIkuRJkam2Ii3xPehiirw">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+     </div>
+
+     <div id="overlay"></div>
+     
+     <form id="Prize-announcement">
+           <div class="dis-prize">
+            <h3 class="text-info" >
+              Chúc mừng bạn đã trúng thưởng
+          </h3>
+          <h4 class="mt-4  text-center text-xl text-white">Voucher</h4>
+          <p class="mt-5 text-sm text-white text-center text-centerr ">(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
+          <button class="btn-comfirm">
+            Xác nhận
+        </button>
+        </div> 
+         
+           
+    </form>
+
+      
+    <form id="list-winn">
+      <div class="list-winner">
+       <h3 class="text-infooo" >
+         Danh sách trúng thưởng
+     </h3>
+     <div class="table-container">
+      <table>
+        <tbody>
+                <tr id="tr1">
+          <td>Họ và tên</td>
+          <td>Số điện thoại</td>
+          <td>Phần thưởng</td>
+          <td>Thời gian</td>
+        </tr>
+        <tr id="tr2" >
+          <td>Trần Minh Đăng</td>
+          <td>0919615***</td>
+          <td>200.000 VNĐ</td>
+          <td>22-05-2023</td>
+        </tr>
+        <tr id="tr2" >
+          <td>Minh Đăng</td>
+          <td>0913821***</td>
+          <td>300.000 VNĐ</td>
+          <td>22-05-2023</td>
+        </tr>
+        <tr id="tr2" >
+          <td>Trần Đăng</td>
+          <td>0919396***</td>
+          <td>800.000 VNĐ</td>
+          <td>22-05-2023</td>
+        </tr>
+        </tbody>
+   
+        <!-- Add more rows if needed -->
+      </table>
+    </div>
+    
+    
+   </div> 
+    
+      
+   </form>
+
+    
+
+
+
+
+
+
+ <script>
+
+// validate ho va ten
+function validateVietnameseName() {
+  var firstLetter = "[A-EGHIK-VXYÂĐỔÔÚỨ]".normalize("NFC"),
+    otherLetters = "[a-eghik-vxyàáâãèéêìíòóôõùúýỳỹỷỵựửữừứưụủũợởỡờớơộổỗồốọỏịỉĩệểễềếẹẻẽặẳẵằắăậẩẫầấạảđ₫]".normalize("NFC"),
+    regexString = "^" + firstLetter + otherLetters + "+\\s(" + firstLetter + otherLetters + "+\\s)*" + firstLetter + otherLetters + "+$",
+    regexPattern = RegExp(regexString);
+
+  var name = document.getElementById('Tiếng_Việt').value.normalize("NFC");
+
+  // Check for consecutive repeated characters
+  if (/([^\s])\1/.test(name)) {
+    document.getElementById("spannyVi").innerHTML = "Tên không hợp lệ";
+    return false;
+  }
+
+  // Check for meaningful name
+  var words = name.split(" ");
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].length <= 2) {
+      document.getElementById("spannyVi").innerHTML = "Tên không hợp lệ";
+      return false;
+    }
+  }
+
+  // Check for valid name format
+  if (regexPattern.test(name)) {
+    document.getElementById("spannyVi").innerHTML = "";
+    return true;
+  } else {
+    document.getElementById("spannyVi").innerHTML = "Tên không hợp lệ!";
+    return false;
+  }
+}
+
+document.querySelector(".name").addEventListener("input", validateVietnameseName);
+
+
+// validate số điện thoai
+const phoneNumberInput = document.getElementById('phone');
+const phoneErrorMessage = document.getElementById('phone-error-message');
+
+function validatePhoneNumber() {
+  const phoneNumber = phoneNumberInput.value;
+  const isValidPhoneNumber = /^0\d{9}$/.test(phoneNumber);
+
+  if (isValidPhoneNumber) {
+    phoneErrorMessage.style.display = 'none';
+    return true;
+  } else {
+    phoneErrorMessage.style.display = 'block';
+    return false;
+  }
+}
+
+phoneNumberInput.addEventListener('input', validatePhoneNumber);
+
+
+// validate email
+const emailInput = document.getElementById("email");
+const emailError = document.getElementById("email-error-message");
+
+function validateEmail() {
+  const emailRegex = /^\S+@(gmail\.com|edu\.com|business\.com|edu\.vn|[a-zA-Z]{2,}\.[a-zA-Z]{2,})$/;
+
+  const email = emailInput.value;
+
+  if (emailRegex.test(email)) {
+    emailInput.classList.remove("error");
+    emailError.innerText = "";
+    return true;
+  } else {
+    emailInput.classList.add("error");
+    emailError.innerText = " email không hợp lệ";
+    return false;
+  }
+}
+
+emailInput.addEventListener("input", validateEmail);
+
+//hàm xử lý form thông tin người dung
+
+const form = document.getElementById('infomation-customer');
+const giftDiv = document.querySelector('.gift-container');
+
+// Mặc định ẩn div.gift
+giftDiv.style.pointerEvents = 'none';
+giftDiv.style.opacity = '0.5';
+function isFormValid() {
+  // Kiểm tra các trường nhập liệu trong form
+  const isVietnameseNameValid = validateVietnameseName();
+  const isPhoneNumberValid = validatePhoneNumber();
+  const isEmailValid = validateEmail();
+
+  // Trả về kết quả kiểm tra tổng quan của form
+  return isVietnameseNameValid && isPhoneNumberValid && isEmailValid;
+}
+
+// Reset các trường nhập liệu trong form
+function resetForm() {
+  form.reset();
+}
+
+// Xử lý sự kiện khi click vào button "Tham gia ngay"
+document.querySelector('.btn-join').addEventListener('click', function (event) {
+  event.preventDefault(); // Ngăn chặn sự kiện mặc định của nút "Tham gia ngay"
+
+  if (isFormValid()) {
+    // Nếu form hợp lệ, ẩn form và tắt điều chỉnh hiển thị của div.gift
+    form.style.display = 'none';
+    giftDiv.style.pointerEvents = 'auto';
+    giftDiv.style.opacity = '1';
+
+    // Reset các trường nhập liệu trong form sau một khoảng thời gian nhất định
+    setTimeout(resetForm, 1000); // Thời gian đợi 1 giây (có thể thay đổi tùy ý)
+  } else {
+    // Nếu form không hợp lệ, không thực hiện hành động và hiển thị thông báo lỗi
+    alert('Vui lòng kiểm tra lại thông tin nhập vào!');
+  }
+});
+
+
+
+
+
+
+//xử lý ramdon hộp quà
+  
+var giftContainers = document.getElementsByClassName("ramdom-gift");
+var prizeForm = document.getElementById("Prize-announcement");
+var isGiftFlipped = false;
+var bntwin = document.getElementById("list-win");
+// const giftDiv = document.querySelector('.gift-container');
+var overlay = document.createElement("div");
+overlay.className = "overlay";
+document.body.appendChild(overlay);
+
+// Xử lý sự kiện khi bấm vào hình quà
+for (var i = 0; i < giftContainers.length; i++) {
+  giftContainers[i].addEventListener("click", function() {
+    if (isGiftFlipped) {
+      showMessage("Chúc mừng bạn đã trúng thưởng");
+      setTimeout(function() {
+        prizeForm.style.display = "block";
+        overlay.style.display = "block";
+        giftDiv.style.opacity = "0.5";
+        giftDiv.style.pointerEvents = 'none';
+      },); // Thời gian chờ trước khi hiển thị form
+    } else {
+      if (!this.classList.contains("flipped")) {
+        var giftImages = ["/img/200.png", "/img/300.png", "/img/500.png", "/img/800.png", "/img/laha.png"];
+        var discountOptions = [200, 300, 500, 800, 150];
+
+        var randomIndex = Math.floor(Math.random() * giftImages.length);
+        var randomGiftImage = giftImages[randomIndex];
+        var randomDiscount = discountOptions[randomIndex];
+
+        var giftImage = this.querySelector("img");
+        var discountInfo = this.querySelector(".discount-info");
+
+        if (randomDiscount > 0) {
+          bntwin.style.display = "block";
+          giftImage.setAttribute("src", randomGiftImage);
+          var voucherTitle = prizeForm.querySelector(".text-center.text-xl.text-white");
+          if (randomDiscount === 150) {
+            voucherTitle.textContent = "Voucher Coffee Laha";
+            voucherTitle.style.marginleft="56px"
+            // Thêm các xử lý đặc biệt cho voucher "coffee laha" tại đây
+          } else {
+            voucherTitle.textContent = "Voucher giảm giá " + randomDiscount + "k";
+          }
+          this.classList.add("flipped");
+          isGiftFlipped = true;
+
+          setTimeout(function() {
+            prizeForm.style.display = "block";
+            overlay.style.display = "block";
+            giftDiv.style.opacity = "0.5";
+            giftDiv.style.pointerEvents = 'none';
+          },); // Thời gian chờ trước khi hiển thị form
+        } else {
+          discountInfo.textContent = "Không có mã giảm giá";
+          showMessage("Hộp quà này không có mã giảm giá");
+        }
+      }
+    }
+  });
+}
+
+// Xử lý sự kiện khi bấm vào nút Xác nhận
+var confirmButton = prizeForm.querySelector(".btn-comfirm");
+confirmButton.addEventListener("click", function(event) {
+  event.preventDefault();
+  prizeForm.style.display = "none";
+  overlay.style.display = "none";
+  giftDiv.style.opacity = "1";
+  giftDiv.style.pointerEvents = 'auto';
+});
+
+// Hàm hiển thị thông báo
+function showMessage(message) {
+  prizeForm.querySelector(".text-info").textContent = message;
+  prizeForm.style.display = "block";
+}
+
+
+bntwin.onclick= function(){
+  var winner = document.getElementById("list-winn");
+  winner.style.display="block";
+}
+
+// end 
+
+
+     </script>
+</body>
+</html>

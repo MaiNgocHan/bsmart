@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="icon" href="img/icon-title-course-4.png" type="image/png" />
+    <title>Amazing</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/course.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors/linericon/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="vendors/animate-css/animate.css" />
+    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!--================Header Menu Area =================-->
+    
+    <!--================Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+      <div class="banner2">
+        <div class="chu">
+          <h1 style="color: #ff3700">Danh sách khoá học</h1> 
+          <p style="color: white">Trang chủ > Khoá học</p>
+        </div>
+      </div>  
+    <!--================End Home Banner Area =================-->
+  
+    <!--================Category Product Area =================-->
+    <section class="cat_product_area py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="left_sidebar_area">
+              <aside class="p_filter_widgets">
+              
+                <div class="l_w_title d-flex" id ="toggle">
+                  <span id="span_Cost" class="ti-arrow-down mt-auto mb-auto"></span>
+                  <h3 class="ml-2">KHOẢNG GIÁ</h3>
+                </div>
+                <nav class="widgets_inner" id=" main-menu">
+                  <ul class="list">
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Tất cả
+                      </label>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label" for="flexCheckDefault1">
+                        Dưới 1.000.000 đ
+                      </label>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label" for="flexCheckDefault2">
+                        Dưới 2.000.000 đ
+                      </label>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3" >
+                      <label class="form-check-label" for="flexCheckDefault3">
+                        Dưới 3.000.000 đ
+                      </label>
+                    </li>
+                  </ul>
+                </nav>
+              </aside>
+
+              <aside class=" p_filter_widgets">
+                <div class="l_w_title d-flex" id ="toggle2">
+                  <span id="span_HT" class="ti-arrow-down mt-auto mb-auto"></span>
+                  <h3 class="ml-2">HÌNH THỨC HỌC</h3>
+                </div>
+                <nav2 class="widgets_inner" id=" main-menu2">
+                  <ul class="list">
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                      <label class="form-check-label" for="flexCheckDefault4">
+                        Online
+                      </label>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5" >
+                      <label class="form-check-label" for="flexCheckDefault5">
+                        Offline
+                      </label>
+                    </li>
+                  </ul>
+                </nav2>
+              </aside>
+
+              <aside class=" p_filter_widgets">
+                <div class="l_w_title d-flex" id ="toggle3">
+                  <span id="span_TD" class="ti-arrow-down mt-auto mb-auto"></span>
+                  <h3 class="ml-2">TRÌNH ĐỘ</h3>
+                </div>
+                <nav3 class="widgets_inner" id=" main-menu3">
+                  <ul class="list">
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                      <label class="form-check-label" for="flexCheckDefault6">
+                        Dễ
+                      </label>
+                      <img 
+                        type="checkbox"
+                        for="flexCheckDefault6"
+                        class="icon2"
+                        src="img/icon-title-course.png"/>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7" >
+                      <label class="form-check-label" for="flexCheckDefault7">
+                        Trung bình
+                      </label>
+                      <img 
+                        type="checkbox"
+                        for="flexCheckDefault7"
+                        class="icon2"
+                        src="img/icon-title-course-2.png"/>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                      <label class="form-check-label" for="flexCheckDefault8">
+                        Khó
+                      </label>
+                      <img 
+                        type="checkbox"
+                        for="flexCheckDefault8"
+                        class="icon2"
+                        src="img/icon-title-course-3.png"/>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9" >
+                      <label class="form-check-label" for="flexCheckDefault9">
+                        Cực khó
+                      </label>
+                      <img 
+                        type="checkbox"
+                        for="flexCheckDefault9"
+                        class="icon2"
+                        src="img/icon-title-course-4.png"/>
+                    </li>
+                  </ul>
+                </nav3>
+              </aside>
+
+              <aside class=" p_filter_widgets">
+                <div class="l_w_title d-flex" id ="toggle4">
+                  <span id="span_LV" class="ti-arrow-down mt-auto mb-auto"></span>
+                  <h3 class="ml-2">LĨNH VỰC</h3>
+                </div>
+                <nav4 class="widgets_inner" id=" main-menu4">
+                  <ul class="list">
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                      <label class="form-check-label" for="flexCheckDefault10">
+                        Front end
+                      </label>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                      <label class="form-check-label" for="flexCheckDefault11">
+                        Back end
+                      </label>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+                      <label class="form-check-label" for="flexCheckDefault12">
+                        Devops
+                      </label>
+                    </li>
+                    <li class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+                      <label class="form-check-label" for="flexCheckDefault13">
+                        Database
+                      </label>
+                    </li>
+                  </ul>
+                </nav4>
+              </aside>
+              <button class="btn-orange">Tìm kiếm</button>
+            </div>
+          </div>
+        <!-- ================================== -->
+          <div class="col-lg-9">
+            <div class="product_top_bar d-flex">
+              <div>
+                <h5 style="padding: 10px;" id="result" ></h5>
+              </div>
+              <div class="ml-auto" >
+                <select class="sorting">
+                  <option value="1">Sắp xếp theo khoá học</option>
+                  <option value="2">Sắp xếp theo giá</option>
+                  <option value="4">Sắp xếp theo ngày học</option>
+                </select>
+              </div>
+            </div>
+            
+
+            <!--=================khoá học============ -->
+
+
+
+            <div class="latest_product_inner">
+              <div class="row" id="parent-div">
+                <section class="col-lg-4 col-md-6" > 
+                  <div class="single-product ">
+
+                    <div >
+                      <b class="gia">1.200.000 đ</b>
+                    </div>
+                    <div class="product-img">
+                      <img
+                        class="card-img"
+                        src="img/reactjs-banner.png"
+                        alt=""
+                      />
+                      
+                    </div>
+                    <div class="avt">
+                        <img 
+                          class="card-img"
+                          src="img/avatar-mentor-2.jpg"
+                          />
+                    </div>
+                    <div  >
+                      <img 
+                        class="icon"
+                        src="img/icon-title-course-4.png"/>
+                    </div>
+                    <div class="product-btm reactjs">
+                      <a href="#" class="d-block">
+                        <h4>NodeJS Basics</h4>
+                      </a>
+
+                      <h6 style="margin-top: 30px; color: rgb(114, 113, 113);">Mentor Cường</h6>
+                      <div class="d-flex" style="color: black;">
+                        <img 
+                          style="width: 15px; height: 15px; margin: 10px;"
+                          src="img/user.png"
+                        />
+                        <a style="text-align: center; padding: 5px;">106 học viên</a>
+                      </div>
+                      <a style="text-align: center;">Khoá học Lập trình ReactJS-JS Framewrok hướng dẫn học viên làm chủ ReactJS và sử dụng ReactJS...</a>
+                      
+                      <div class="rating">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"><i class="fa fa-star"></i></label>
+                      </div>
+                      <div class="d-flex" style="color: black;">
+                        <div>
+                          <img 
+                            src="img/clock-time.png" 
+                            style="width: 15px; height: 15px; margin: 1px;"/>
+                            <a>20hr</a>
+                        </div>
+                        <div>
+                          <img 
+                            src="img/lich.png" 
+                            style="width: 15px; height: 15px; margin: 1px; margin-left: 10px;"/>
+                            <a>26 Slot/cour</a>
+                        </div>
+                      </div>
+                      <div class="line"></div>
+
+                      <button class="btn-orange">Xem chi tiết</button>
+
+                    </div>
+                  </div>
+                </section>
+
+                <section class="col-lg-4 col-md-6" >
+                  <div class="single-product ">
+
+                    <div >
+                      <b class="gia">1.200.000 đ</b>
+                    </div>
+                    <div class="product-img">
+                      <img
+                        class="card-img"
+                        src="img/reactjs-banner.png"
+                        alt=""
+                      />
+                      
+                    </div>
+                    <div class="avt">
+                        <img 
+                          class="card-img"
+                          src="img/avatar-mentor-2.jpg"
+                          />
+                    </div>
+                    <div  >
+                      <img 
+                        class="icon"
+                        src="img/icon-title-course-4.png"/>
+                    </div>
+                    <div class="product-btm reactjs">
+                      <a href="#" class="d-block">
+                        <h4>NodeJS Basics</h4>
+                      </a>
+
+                      <h6 style="margin-top: 30px; color: rgb(114, 113, 113);">Mentor Cường</h6>
+                      <div class="d-flex" style="color: black;">
+                        <img 
+                          style="width: 15px; height: 15px; margin: 10px;"
+                          src="img/user.png"
+                        />
+                        <a style="text-align: center; padding: 5px;">106 học viên</a>
+                      </div>
+                      <a style="text-align: center;">Khoá học Lập trình ReactJS-JS Framewrok hướng dẫn học viên làm chủ ReactJS và sử dụng ReactJS...</a>
+                      
+                      <div class="rating">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"><i class="fa fa-star"></i></label>
+                      </div>
+                      <div class="d-flex" style="color: black;">
+                        <div>
+                          <img 
+                            src="img/clock-time.png" 
+                            style="width: 15px; height: 15px; margin: 1px;"/>
+                            <a>20hr</a>
+                        </div>
+                        <div>
+                          <img 
+                            src="img/lich.png" 
+                            style="width: 15px; height: 15px; margin: 1px; margin-left: 10px;"/>
+                            <a>26 Slot/cour</a>
+                        </div>
+                      </div>
+                      <div class="line"></div>
+
+                      <button class="btn-orange">Xem chi tiết</button>
+
+                    </div>
+                  </div>
+                </section>
+
+                <section class="col-lg-4 col-md-6" >
+                  <div class="single-product ">
+
+                    <div >
+                      <b class="gia">1.200.000 đ</b>
+                    </div>
+                    <div class="product-img">
+                      <img
+                        class="card-img"
+                        src="img/reactjs-banner.png"
+                        alt=""
+                      />
+                      
+                    </div>
+                    <div class="avt">
+                        <img 
+                          class="card-img"
+                          src="img/avatar-mentor-2.jpg"
+                          />
+                    </div>
+                    <div  >
+                      <img 
+                        class="icon"
+                        src="img/icon-title-course-4.png"/>
+                    </div>
+                    <div class="product-btm reactjs">
+                      <a href="#" class="d-block">
+                        <h4>NodeJS Basics</h4>
+                      </a>
+
+                      <h6 style="margin-top: 30px; color: rgb(114, 113, 113);">Mentor Cường</h6>
+                      <div class="d-flex" style="color: black;">
+                        <img 
+                          style="width: 15px; height: 15px; margin: 10px;"
+                          src="img/user.png"
+                        />
+                        <a style="text-align: center; padding: 5px;">106 học viên</a>
+                      </div>
+                      <a style="text-align: center;">Khoá học Lập trình ReactJS-JS Framewrok hướng dẫn học viên làm chủ ReactJS và sử dụng ReactJS...</a>
+                      
+                      <div class="rating">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"><i class="fa fa-star"></i></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"><i class="fa fa-star"></i></label>
+                      </div>
+                      <div class="d-flex" style="color: black;">
+                        <div>
+                          <img 
+                            src="img/clock-time.png" 
+                            style="width: 15px; height: 15px; margin: 1px;"/>
+                            <a>20hr</a>
+                        </div>
+                        <div>
+                          <img 
+                            src="img/lich.png" 
+                            style="width: 15px; height: 15px; margin: 1px; margin-left: 10px;"/>
+                            <a>26 Slot/cour</a>
+                        </div>
+                      </div>
+                      <div class="line"></div>
+
+                      <button class="btn-orange">Xem chi tiết</button>
+
+                    </div>
+                  </div>
+                </section>
+
+              </div>
+            </div>
+            <div class="w-100 d-flex">
+              <div class="pagination p1 ml-auto mr-auto" style=" text-align: center">
+                <ul>
+                  <a href="#"><li></li></a>
+                  <a class="is-active" href="#"><li>1</li></a>
+                  <a href="#"><li>2</li></a>
+                  <a href="#"><li>></li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!--================End Category Product Area =================-->
+
+    <!--================ start footer Area  =================-->
+    
+    <!--================ End footer Area  =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $('#toggle').click(function() {
+          $('nav').slideToggle();
+          if (document.getElementById("span_Cost").className.includes("ti-arrow-down")){
+            document.getElementById("span_Cost").className = "ti-arrow-up mt-auto mb-auto";
+          } else {
+            document.getElementById("span_Cost").className = "ti-arrow-down mt-auto mb-auto";
+          }
+        });
+      })
+      // ==========
+      $(document).ready(function() {
+          $('#toggle2').click(function() {
+              $('nav2').slideToggle();
+              if (document.getElementById("span_HT").className.includes("ti-arrow-down ")){
+              document.getElementById("span_HT").className = "ti-arrow-up mt-auto mb-auto";
+              } else {
+                document.getElementById("span_HT").className = "ti-arrow-down mt-auto mb-auto";
+              }
+          });
+      })
+
+      $(document).ready(function() {
+          $('#toggle3').click(function() {
+              $('nav3').slideToggle();
+              if (document.getElementById("span_TD").className.includes("ti-arrow-down")){
+              document.getElementById("span_TD").className = "ti-arrow-up mt-auto mb-auto";
+              } else {
+                document.getElementById("span_TD").className = "ti-arrow-down mt-auto mb-auto";
+              }
+
+          });
+      })
+      // ==========
+      $(document).ready(function() {
+          $('#toggle4').click(function() {
+              $('nav4').slideToggle();
+              if (document.getElementById("span_LV").className.includes("ti-arrow-down")){
+              document.getElementById("span_LV").className = "ti-arrow-up mt-auto mb-auto";
+              } else {
+                document.getElementById("span_LV").className = "ti-arrow-down mt-auto mb-auto";
+              }
+          });
+      })
+
+      
+      // Lấy phần tử cha (parent) bằng id
+      var parentDiv = document.getElementById('parent-div');
+
+      if (parentDiv) {
+        var childElements  = parentDiv.getElementsByTagName('section');
+        var count = childElements .length;
+        var resultElement = document.getElementById('result');
+        resultElement.innerHTML = count + ' '+'khoá học';
+      } else {
+        console.log('Không tìm thấy');
+      }
+
+      //////tìm đếm div theo ID
+      // var parentDiv = document.getElementById('parent-div');
+      // var childElements = parentDiv.querySelectorAll('[id]');
+      // var count = childElements.length;
+      // console.log('Tổng số phần tử có ID trong phần tử cha là: ' + count);
+    
+
+
+
+  </script>
+  </body>
+</html>

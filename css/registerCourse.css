@@ -1,0 +1,1038 @@
+.dk .dk1 .dk2 h2{
+    font-weight: bold;
+    font-size: 27px;
+}
+/* #use-bs h4{
+} */
+.mg-b{
+    margin-bottom: 30px;
+}
+.mg-t{
+    margin-top: 25px;
+}
+.mg-r{
+    margin-right: 20px;
+}
+.mg-l{
+    margin-left: 20px;
+}
+.banner2 .chu h1{
+    font-size: 60px;
+}
+#name-course {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+  #info-course {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+.centered-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+    overflow: auto;
+  }
+table {
+    /* border-collapse: collapse; */
+    width: 100%;
+}
+th {
+    /* background-color: #f2f2f2; */
+    color: black;
+    text-align: left;
+    padding: 1px;
+    font-size: 15px;
+    width: 30%;
+    /* border: 1px solid #ddd; */
+}
+td {
+    /* border: 1px solid #ddd; */
+    padding: 1px ;
+    font-size: 15px;
+    width: 70%;
+    color: black;
+}
+#modal-dis{
+    /* position: relative; */
+    width: 500px;
+    height: 280px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    padding-left: 15px;
+    /* top:-700px;
+    left: 500px; */
+    display: none;
+    z-index: 9999;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fa-question {
+    cursor:pointer;
+}
+
+#modal-dis.show {
+    display: block;
+    opacity: 1;
+    /* transform: scale(1); */
+}
+
+#modal{
+    /* position: relative; */
+    width: 550px;
+    height: 280px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    padding-left: 15px;
+    /* top:-700px;
+    left: 500px; */
+    display: none;
+    z-index: 9999;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+#modal .show {
+    display: block;
+    opacity: 1;
+    /* transform: scale(1); */
+}
+
+
+#sp-dis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#close-icon {
+    /* position: absolute; */
+    font-size: 22px;
+    cursor: pointer;
+    /* margin-left: 467px; */
+}
+
+#close-iconn {
+    /* position: absolute; */
+    font-size: 22px;
+    cursor: pointer;
+    /* margin-left: 467px; */
+}
+
+#question-icon {
+    cursor: pointer;
+}
+
+#sp-dis{
+    display: flex;
+    align-items: center;
+}
+#course-register{
+    /* width: 300px; */
+    width: 100%;
+    height: 120px;
+    border: 5px solid rgba(0, 0, 0, 0.203);
+    position: relative;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 20px;
+    /* position: absolute; */
+    /* margin-left: -404px;
+    margin-top: -225px; */
+}
+
+#info-course{
+    position: absolute;
+    /* margin-top: 33px;
+    margin-left: 5px; */
+}
+
+#infomation-course{
+    /* margin-left: 400px;
+    margin-top: -10px; */
+    position: relative;
+}
+
+#reference{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    /* top: -20px; */
+}
+
+/* #name-course{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+} */
+
+#reference a{
+    text-decoration:none;
+    
+    /* top:30px */
+}
+
+#reference-text{
+    /* margin-left: 20px;
+    margin-top: -25px; */
+    color:black;
+}
+
+#reference-textt{
+    /* margin-left: 20px;
+    margin-top: -30px; */
+    color:black;
+    /* position: absolute; */
+}
+
+.fa-chevron-left{
+    color:black;
+}
+
+#register{
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.count{
+    display:flex;
+    /* margin-left: 450px; */
+}
+
+.content-course{
+    position: relative;
+    /* width: 700px;
+    height: 200px; */
+    border: 7px solid rgba(41, 41, 41, 0.1);
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.content{
+    /* position: absolute; */
+    /* width: 690px;
+    height: 190px; */
+    /* margin: 5px; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.text{
+    color: #000000;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.content-right{
+    /* position: absolute; */
+    /* margin-top: -192px;
+    margin-left: 160px; */
+    
+} 
+
+.date{
+    display: flex;
+    align-items: center;
+    /* margin-top: -32px; */
+}
+
+.mentor{
+    display: flex;
+    align-items: center;
+    /* margin-top: -32px; */
+}
+
+
+.time{
+    display: flex;
+    align-items: center;
+    /* margin-top: -32px; */
+}
+
+
+.price{
+    display: flex;
+    align-items: center;
+    /* margin-top: -32px; */
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    /* margin-top: -32px; */
+}
+
+#delete-btn{
+    /* position: absolute; */
+    color:orange;
+    /* margin-top: -30px;
+    margin-left: 480px; */
+}
+
+#delete-btn2{
+    position: absolute;
+    color:orange;
+    /* margin-top: -30px;
+    margin-left: 480px;   */
+}
+
+#content-course1{
+    margin-top: 10px;
+}
+
+    .course-register2 {
+        /* top: 81px; */
+    }
+    .course-register3 {
+        /* top: -21px; */
+    }
+    .course-register4 {
+        /* top: -122px; */
+    }
+
+/* #customer{
+    position: relative; 
+    top:-680px;
+     left: 1300px;
+} */
+
+#referral-code{
+    display: flex;
+}
+
+#referral{
+    /* margin-left: 10px; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: orange;
+}
+
+.fa-check-circle{
+    color: green;
+    margin-left: 5px;
+    margin-top:6px;
+}
+
+.fa-question{
+    background-color: transparent;
+    margin-left: 15px;
+    margin-top: 6px;
+
+}
+
+
+.discount-code{
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+.fa-question-circle-o{
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.fa-times{
+    /* margin-left: 200px; */
+}
+
+.fa-question1{
+    cursor: pointer;
+
+}
+        
+
+#total-price{
+    margin-top: 10px;
+    /* height: 150px;
+    width: 550px; */
+    border-style: dashed;
+    border-width: thin;
+    border-color: black;
+    /* background: linear-gradient(90deg, black 10%, transparent 50%), 
+                linear-gradient(90deg, black 10%, transparent 50%), 
+                linear-gradient(0deg, black 10%, transparent 50%), 
+                linear-gradient(0deg, black 10%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 16px 4px, 16px 4px, 4px 16px, 4px 16px;
+    background-position: 0% 0%, 100% 100%, 0% 100%, 100% 0px; */
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+#pre-price{
+    display: flex;
+    align-items: center;
+}
+    
+/* #provisional{
+    margin-left: 10px;
+} */
+
+#dis-price{
+    display: flex;
+    align-items: center;
+    /* margin-top: -20px; */
+}
+
+/* #price-dis{
+    margin-left: 10px;
+} */
+
+#total{
+    display: flex;
+    align-items: center;
+    /* margin-top: -20px; */
+}
+    
+/* #price-total{
+    margin-left: 10px;
+} */
+
+#use-bs{
+    display: flex;
+    align-items: center;
+    margin-top: 10px    ;
+}
+
+#use{
+    margin-left: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* .payment-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ddddddb6;
+    border-radius:5px;
+    /* width: 120px;
+    height: 120px;
+} */
+
+/* .payment-option img {
+    max-width: 100%;
+    max-height: 100%;
+    /* border-radius: 50%; 
+} */
+#momo {
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid #ffffff; */
+    background-color: #ffffff;
+    /* margin-left: 180px; */
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5); 
+    }
+
+#viettel{
+    /* margin-left: 320px;
+    margin-top: -105px; */
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5); 
+}
+
+
+#btn-payment{
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    background-color: #4BA744;
+    border: 5px;
+    color: #fff;
+    padding: 15px 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* margin-top: 20px; */
+    /* margin-left: 140px; */
+    cursor:pointer;
+}
+
+#sp-call{
+    /* width: 550px; */
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#phone{
+    display: flex;
+    align-items: center;
+    /* margin-left: 200px; */
+}
+
+
+
+
+
+#payment-viettelpay{
+    max-width: 1200px;
+    width: 100%;
+    max-height: 800px;
+    height: 100%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    position: relative;
+    /* left: -1050px;
+    top: -950px; */
+    display: flex;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+#payment-momopay{
+    max-width: 1200px;
+    width: 100%;
+    max-height: 800px;
+    height: 100%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    position: relative;
+    /* left: -1050px;
+    top: -950px; */
+    display: flex;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+
+#payment-momopayy{
+    max-width: 1200px;
+    width: 100%;
+    max-height: 800px;
+    height: 100%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    position: relative;
+    /* left: -1050px;
+    top: -950px; */
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: none;
+}
+
+
+#info-order{
+    /* position: absolute; */
+    padding: 30px;
+    max-width: 450px;
+    width: 100%;
+    height: 850px;
+    background-color: rgb(13,10,55);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+#end-time{
+    font-size:30px;
+    color: rgb(255, 100, 9);
+
+}
+
+#time-countdown{
+    margin-top: 30px;
+}
+
+#countdown{
+    color: rgb(255, 100, 9);
+    font-size: 40px;
+    /* margin-left: -200px;
+    margin-top: 50px; */
+    /* position: absolute; */
+}
+
+#countdownn{
+    color: rgb(255, 100, 9);
+    font-size: 40px;
+    /* margin-left: -200px;
+    margin-top: 50px; */
+    /* position: absolute; */
+}
+
+#payment-gateways{
+    font-size:30px;
+    color: rgb(255, 100, 9);
+    /* margin-left: -330px;
+    margin-top:120px; */
+    white-space: nowrap;
+    /* position: absolute; */
+}
+
+#gateways{
+    /* itposion: absolute; */
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-top: 170px;
+    margin-left: -200px; */
+}
+
+#vietellpay{
+    /* margin-top: -47px;
+    margin-left: 347px; */
+    /* position: absolute; */
+}
+
+/* #money{
+    margin-top: 30px;
+    margin-left: 20px;
+} */
+
+#totel-money{
+    font-size:30px;
+    color: rgb(255, 100, 9);
+
+    white-space: nowrap;
+    /* position: absolute; */
+}
+
+#total-bill{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 86px;
+}
+
+#total-billl{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 86px;
+}
+
+/* #if{
+    margin-top: 30px;
+    margin-left: 20px;
+} */
+
+#infomations{
+    font-size:30px;
+    color: rgb(255, 100, 9);
+
+    /* white-space: nowrap; */
+    /* position: absolute; */
+}
+
+#course-infoo{
+    /* position: absolute; */
+    /* margin-top: 40px; */
+    color:rgb(255, 255, 255);
+    font-size: 27px;
+}
+
+.order{
+    /* position: absolute; */
+    /* margin-left: 20px; */
+}
+
+#name-order{
+    font-size:30px;
+    color: rgb(255, 100, 9);
+
+    white-space: nowrap;
+    /* position: absolute; */
+}
+
+#seri{
+    /* position: absolute; */
+    margin-top: 50px;
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    /* margin-left: 50px; */
+}
+/* 
+#back{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+} */
+
+.fa-long-arrow-left{
+    color: rgb(255, 100, 9);
+    font-size: 35px;
+    /* transform: scale(3); */
+    /* margin-left: 20px; */
+
+}
+
+#comeback2{
+    font-size:30px;
+    color: rgb(255, 100, 9);
+}
+
+#comeback{
+    font-size:30px;
+    color: rgb(255, 100, 9);
+    /* margin-left: 70px; */
+    /* white-space: nowrap; */
+    /* position: absolute; */
+}
+
+#payment-qr{
+    /* position: absolute; */
+    /* margin-left:400px; */
+    max-height: 850px;
+    /* height: 100%; */
+    max-width: 800px;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.icon-viettel{
+    /* position: absolute; */
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+#img-viettel{
+    /* position: absolute; */
+    /* margin-left: 650px; */
+    border-radius: 5px;
+}
+
+#background-qr{
+    /* position: absolute; */
+    /* margin-left: 280px;
+    margin-top: 30px; */
+    /* width: 250px; */
+    height: 250px;
+    background-color: rgb(217,217,217);
+    /* background-image: url('./img/qr.png'); */
+    border-radius: 5px;
+    
+}
+
+
+/* #use-qr{
+    margin-top: 320px;
+    margin-left: 270px;
+    display: flex;
+} */
+
+.fa-qrcode{
+    /* transform: scale(3); */
+    font-size: 30px;
+}
+
+#use-qr1{
+    /* margin-left: 180px; */
+    margin-top: 20px;
+}
+
+#loading{
+    margin-top: 20px;
+    /* margin-left: 280px; */
+    /* display: flex; */
+}
+
+.fa-spinner{
+    /* margin-left: -25px; */
+    margin-top: 5px;
+    /* position: absolute; */
+    font-size: 25px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg); /* Xoay thẻ <i> với góc 0 độ */
+    }
+    100% {
+        transform: rotate(360deg); /* Xoay thẻ <i> với góc 360 độ */
+    }
+}
+
+#hr{
+    /* margin-top: 20px; */
+    display: flex;
+}
+
+#btn-register{
+    /* margin-top: 30px; */
+    /* margin-left: 300px; */
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    /* background-color: pink; */
+    border: 2px solid #FF66FF;
+    background-color: transparent;
+
+}
+
+#btn-register span {
+    color: #FF66FF;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#btn-register-vt{
+    /* margin-top: 30px; */
+    /* margin-left: 300px; */
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    /* background-color: pink; */
+    border: 2px solid #f70000;
+    background-color: transparent;
+
+}
+
+#btn-register-vt span {
+    color: #ff0d00;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#btn-register-vt2{
+    /* margin-top: 30px; */
+    /* margin-left: 300px; */
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    /* background-color: pink; */
+    border: 2px solid #a70978;
+    background-color: transparent;
+
+}
+
+#btn-register-vt2 span {
+    color: #a70978;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.selected {
+    border: 3px solid rgb(27, 124, 5);
+}
+
+
+.cr {
+    display: none;
+  }
+  
+  .course-register.has-content {
+    display: block;
+  }
+  @media only screen and (min-width: 767px) and (max-width: 992px){
+    .mg-b{
+        margin-bottom: 0x;
+    }
+    .mg-t{
+        margin-top: 10px;
+    }
+    .mg-r{
+        margin-right: 10px;
+    }
+    .mg-l{
+        margin-left: 10px;
+    }
+    .banner2 .chu h1 {
+        font-size: 50px;
+        margin-top: 5%;
+    }
+    .dk .dk1 .dk2 h2{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    #reference .d-flex h2{
+        font-size: 25px;
+    }
+    .d-flex .mb-auto #register{
+        font-size: 23px;
+    }
+    #customer #reference-textt{
+        font-size: 20px;
+    }
+    #payment-viettelpay{
+        margin-left: 45px;
+        max-width: 1100px;
+        width: 100%;
+        max-height: 500px;
+        height: 100%;
+    }
+
+    #payment-momopay{
+        max-width: 1100px;
+        width: 100%;
+        max-height: 500px;
+        height: 100%;
+    }
+    #info-order{
+        max-width: 200px;
+        width: 100%;
+        height: 500px;
+        border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+    }
+    #payment-qr{
+        max-height: 500px;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #end-time{
+        font-size:15px;
+    
+    }
+    
+    #time-countdown{
+        margin-top: 15px;
+    }
+    
+    #countdown{
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    
+    #countdownn{
+        font-size: 15px;
+    }
+    
+    #payment-gateways{
+        font-size:15px;
+    }
+    
+    #gateways{
+        font-size: 15px;
+    }
+    
+#totel-money{
+    font-size:15px;
+}
+
+#total-bill{
+    font-size: 15px;
+    margin-left: 30px;
+}
+#name-order{
+    font-size:15px;
+}
+
+#seri{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.fa-long-arrow-left{
+    font-size: 30px;
+}
+
+#comeback2{
+    font-size:15px;
+}
+
+#comeback{
+    font-size:15px;
+  }
+}
+  
+  @media only screen  and (max-width: 740px) {
+    .banner2 .chu h1 {
+        font-size: 30px;
+        margin-top: 15%;
+    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .banner2 .chu h1 {
+        font-size: 40px;
+        margin-top: 5%;
+    }
+  }
+  @media only screen and (min-width: 390px) and (max-width: 480px) {
+    .banner2 .chu h1 {
+        font-size: 35px;
+        margin-top: 7%;
+    }
+    .dk .dk1 .dk2 h2{
+        font-size: 23px;
+        font-weight: bold;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .dk .dk1 .dk2 h2{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #customer #reference-textt{
+        font-size: 25px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .dk .dk1 .dk2 h2{
+        font-size: 23px;
+        font-weight: bold;
+    }
+    #customer #reference-textt{
+        font-size: 20px;
+    }
+    #reference .d-flex h2{
+        font-size: 25px;
+    }
+    .d-flex .mb-auto #register{
+        font-size: 20px;
+    }
+  }

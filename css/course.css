@@ -1,0 +1,369 @@
+.banner2{
+  height: 210px;
+  width: 100%;
+  background-image:url("img/banner-2.jpg") ;
+  background-size: cover;
+  background-position: center
+}
+
+.chu{
+  position: "absolute"; 
+  height: 210px;
+  width: 100%;
+  background-color: rgba(8, 5, 90, 0.727); 
+  padding: 50px; 
+  opacity: 5;
+  text-align: center;
+}
+
+.h55{
+  position: "absolute"; 
+  /* height: 210px;
+  width: 100%;
+  background-color: rgba(27, 4, 67, 0.5);   */
+  color: #ffffff; 
+  padding: 70px; 
+  opacity: 1;
+  text-align: center;
+}
+.auth {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 3rem auto;
+  width: 25vw;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid white;
+}
+
+
+.gia{
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  color: rgb(208, 92, 50);
+  width: 90px;
+  height: 25px;
+  border-radius: 2px;
+  border: 0.1px solid #635f5f;
+  left: 15px;
+}
+.avt{
+  position: absolute;
+  z-index: 2;
+  height: auto;
+  width: auto;
+  margin-top: -12%;
+  margin-left: 5%;
+  margin-bottom: 80%;
+  margin-right: 75%;
+  /* top: 100px;
+  left: 30px; */
+}
+
+.icon{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 15px;
+}
+.icon2{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+   /* right: 5px;  */
+  left: 50px;
+   margin-left: 20%;
+  margin-right: 20%;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #dcd9d9;
+  margin: 10px;
+}
+
+
+.btn-orange {
+  background-color: orange;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+
+ /* tạo ngôi sao */
+ .rating {
+  display: inline-flex;
+  font-size: 15px;
+  color: #f7d917;
+}
+.rating input[type="radio"] {
+  display: none;
+}
+.rating label {
+  padding: 5px;
+  cursor: pointer;
+}
+.rating label i {
+  transition: color 0.3s;
+}
+.rating input[type="radio"]:checked + label i {
+  color: #f1c40f;
+}
+
+/* kết thúc tạo sao */
+
+/* menu */
+* {
+        margin: 0px;
+        padding: 0px;
+  }
+    
+  ul {
+      list-style-type: none;
+  }
+  
+  nav {
+      background-color: #ffffff;
+  }
+  
+  #main-menu {
+      display: flex;
+  }
+  
+  nav #main-menu li a {
+      color: #000000;
+      text-decoration: none;
+      display: block;
+      padding: 8px 15px;
+  }
+  
+  nav #main-menu li:hover a {
+      background: #c23616;
+      transition: all 0.3s;
+  }
+  
+  #toggle {
+      pointer-events: none;
+      background: #ffffff;
+      color: #030303;
+      text-align: left;
+      padding: 1px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  .ti-arrow-down{
+    display: none;
+  }
+  .ti-arrow-up{
+    display: none;
+  }
+@media screen and (max-width: 768px) {
+  #main-menu {
+      flex-direction: column;
+      text-align: center;
+  }
+  #toggle {
+      display: block;
+      pointer-events: all;
+  }
+
+  nav {
+      display: none;
+  }
+
+  .ti-arrow-down{
+    display: block;
+  }
+
+  .ti-arrow-up{
+    display: block;
+  }
+}
+/* ====== */
+
+/* ===== */
+
+#main-menu2 {
+  display: flex;
+}
+
+nav #main-menu2 li a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px;
+}
+
+nav #main-menu2 li:hover a {
+  background: #c23616;
+  transition: all 0.3s;
+}
+
+#toggle2 {
+  pointer-events: none;
+  background: #ffffff;
+  color: #030303;
+  text-align: left;
+  padding: 1px;
+  font-size: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+#main-menu2 {
+  flex-direction: column;
+  text-align: center;
+}
+#toggle2 {
+  display: block;
+  pointer-events: all;
+}
+
+nav2 {
+  display: none;
+}
+
+
+}
+
+/* ======== */
+
+#main-menu3 {
+  display: flex;
+}
+
+nav #main-menu3 li a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px;
+}
+
+nav #main-menu3 li:hover a {
+  background: #c23616;
+  transition: all 0.3s;
+}
+
+#toggle3 {
+  pointer-events: none;
+  background: #ffffff;
+  color: #030303;
+  text-align: left;
+  padding: 1px;
+  font-size: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+#main-menu3 {
+  flex-direction: column;
+  text-align: center;
+}
+#toggle3 {
+  display: block;
+  pointer-events: all;
+}
+
+nav3 {
+  display: none;
+}
+
+
+}
+
+/* ======== */
+
+#main-menu4 {
+  display: flex;
+}
+
+nav #main-menu4 li a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px;
+}
+
+nav #main-menu4 li:hover a {
+  background: #c23616;
+  transition: all 0.3s;
+}
+
+#toggle4 {
+  pointer-events: none;
+  background: #ffffff;
+  color: #030303;
+  text-align: left;
+  padding: 1px;
+  font-size: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+#main-menu4 {
+  flex-direction: column;
+  text-align: center;
+}
+#toggle4 {
+  display: block;
+  pointer-events: all;
+}
+
+nav4 {
+  display: none;
+}
+
+
+}
+
+nav.widgets_inner {
+  display: none;
+}
+
+
+/* phantrang */
+
+/* thiết lập style cho thẻ a */
+.pagination{
+  padding: 30px 0;
+  
+}
+
+.pagination ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination a{
+  display: inline-block;
+  padding: 10px 18px;
+  color: #222;
+}
+
+.p1 a.is-active{
+  background-color: coral;
+  border-radius: 100%;
+  color: #fff;
+}
+.p1 a{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  font-size: 14px;
+}
