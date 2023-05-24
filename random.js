@@ -100,67 +100,251 @@ window.addEventListener('DOMContentLoaded', function() {
   document.body.style.overflow = 'hidden';
 });
 
+
+var giftContainers = document.getElementsByClassName("ramdom-gift");
+var prizeForm = document.getElementById("Prize-announcement");
+var isGiftFlipped = false;
+var bntwin = document.getElementById("list-win");
+var overlay3 = document.createElement("div");
+overlay3.id = "overlay3";
+overlay3.className = "overlay3";
+document.body.appendChild(overlay3);
+
+function showOverlay() {
+  overlay3.style.display = "block";
+}
+
+function hideOverlay() {
+  overlay3.style.display = "none";
+  prizeForm.style.display = "none"; // Ẩn form khi đóng overlay
+}
+
+overlay3.addEventListener("click", function(event) {
+  if (event.target === overlay3) {
+    hideOverlay();
+  }
+});
+
+for (var i = 0; i < giftContainers.length; i++) {
+  giftContainers[i].addEventListener("click", function() {
+    if (isGiftFlipped) {
+      setTimeout(function() {
+        showMessage("Chúc mừng bạn đã trúng thưởng");
+        prizeForm.style.display = "block";
+        showOverlay();
+        this.style.opacity = "0.5";
+        this.style.pointerEvents = "none";
+      }, 500);
+    } else {
+      if (!this.classList.contains("flipped")) {
+        var giftImages = ["/img/200.jpg", "/img/300.jpg", "/img/500.jpg", "/img/800.jpg", "/img/cafe.jpg"];
+        var discountOptions = [200, 300, 500, 800, 150];
+
+        var randomIndex = Math.floor(Math.random() * giftImages.length);
+        var randomGiftImage = giftImages[randomIndex];
+        var randomDiscount = discountOptions[randomIndex];
+
+        var giftImage = this.querySelector(".gift-img");
+        var discountInfo = this.querySelector(".discount-info");
+
+        if (randomDiscount > 0) {
+          bntwin.style.display = "block";
+          giftImage.setAttribute("src", randomGiftImage);
+          discountInfo.textContent = "Giảm giá " + randomDiscount + "k";
+          this.classList.add("flipped");
+          isGiftFlipped = true;
+
+          setTimeout(function() {
+            prizeForm.style.display = "block";
+            showOverlay();
+            giftContainers.forEach(function(container) {
+              container.style.opacity = "0.5";
+              container.style.pointerEvents = "none";
+            });
+          }, 500);
+        } else {
+          discountInfo.textContent = "Không có mã giảm giá";
+          showMessage("Hộp quà này không có mã giảm giá");
+        }
+      }
+    }
+  });
+}
+
+var confirmButton = prizeForm.querySelector(".btn-comfirm");
+confirmButton.addEventListener("click", function(event) {
+  event.preventDefault();
+  prizeForm.style.display = "none";
+  hideOverlay();
+  giftContainers.forEach(function(container) {
+    container.style.opacity = "1";
+    container.style.pointerEvents = "auto";
+  });
+});
+
+function showMessage(message) {
+  prizeForm.querySelector(".text-info1").textContent = message;
+  prizeForm.style.display = "block";
+}
+
+bntwin.onclick = function() {
+  var winnerForm = document.getElementById("list-winn");
+  winnerForm.style.display = "block";
+  showOverlay();
+};
+
+var closemodal = document.querySelector("#list-winn .fa-xmark");
+closemodal.onclick = function() {
+  var winnerForm = document.getElementById("list-winn");
+  winnerForm.style.display = 'none';
+  hideOverlay();
+};
+
+var overlay = document.getElementById("overlay3");
+overlay.addEventListener("click", function(event) {
+  var target = event.target;
+  if (target.id === "overlay3") {
+    var winnerForm = document.getElementById("list-winn");
+    winnerForm.style.display = 'none';
+    hideOverlay();
+  }
+});
+
+// var confirmButton = prizeForm.querySelector(".btn-comfirm");
+// confirmButton.addEventListener("click", function(event) {
+//   event.preventDefault();
+//   prizeForm.style.display = "none";
+//   hideOverlay();
+//   giftContainers.forEach(function(container) {
+//     container.style.opacity = "1";
+//     container.style.pointerEvents = "auto";
+//   });
+// });
+
+// function showMessage(message) {
+//   prizeForm.querySelector(".text-info1").textContent = message;
+//   prizeForm.style.display = "block";
+// }
+
+// bntwin.onclick = function() {
+//   var winnerForm = document.getElementById("list-winn");
+//   winnerForm.style.display = "block";
+//   showOverlay();
+// };
+
+// var closemodal = document.querySelector("#list-winn .fa-xmark");
+// closemodal.onclick = function() {
+//   var winnerForm = document.getElementById("list-winn");
+//   winnerForm.style.display = 'none';
+//   hideOverlay();
+// };
+
+
+
+
 // ///////////////////////
 
 // ////////////////
 
-// Lấy danh sách tất cả các ảnh "gift"
-const giftImages = document.querySelectorAll('.grid img');
+// var giftContainers = document.getElementsByClassName("ramdom-gift");
+// var prizeForm = document.getElementById("Prize-announcement");
+// var isGiftFlipped = false;
+// var bntwin = document.getElementById("list-win");
+// var overlay3 = document.createElement("div");
+// overlay3.className = "overlay3";
+// document.body.appendChild(overlay3);
 
-// Lấy phần tử overlay và message
-const overlay_message = document.getElementById('overlay_message');
-const message = document.querySelector('.message');
+// function showOverlay() {
+//   overlay3.style.display = "block";
+// }
+// function hideOverlay() {
+//   overlay3.style.display = "none";
+// }
+// for (var i = 0; i < giftContainers.length; i++) {
+//   giftContainers[i].addEventListener("click", function() {
+//     if (isGiftFlipped) {
+//       setTimeout(function() {
+//         showMessage("Chúc mừng bạn đã trúng thưởng");
+//         prizeForm.style.display = "block";
+//         overlay3.style.display = "block";
+//         giftDiv.style.opacity = "0.5";
+//         giftDiv.style.pointerEvents = 'none';
+//       },);
+//     } else {
+//       if (!this.classList.contains("flipped")) {
+//         var giftImages = ["/img/200.jpg", "/img/300.jpg", "/img/500.jpg", "/img/800.jpg", "/img/cafe.jpg"];
+//         var discountOptions = [200, 300, 500, 800, 150];
 
-// Biến lưu trạng thái đã chọn
-let isGiftSelected = false;
+//         var randomIndex = Math.floor(Math.random() * giftImages.length);
+//         var randomGiftImage = giftImages[randomIndex];
+//         var randomDiscount = discountOptions[randomIndex];
 
-const imageMap = {
-    'gift1.png': '1.png',
-    'gift2.png': '2.png',
-    'gift3.png': '3.png',
-    'gift4.png': '4.png',
-    'gift5.png': '5.png',
-    'gift6.png': '6.png',
-    'gift7.png': '7.png',
-    'gift8.png': '8.png',
-    'gift9.png': '9.png',
-  };
+//         var giftImage = this.querySelector("img");
+//         var discountInfo = this.querySelector(".discount-info");
 
-// Đăng ký sự kiện khi chuột di chuyển qua ảnh "gift"
-giftImages.forEach((giftImage, index) => {
-  giftImage.addEventListener('mouseover', () => {
-    if (!isGiftSelected) {
-        giftImage.style.transform = 'scale(1.1)'; // Phóng to ảnh
-      }
-  });
+//         if (randomDiscount > 0) {
+//           bntwin.style.display = "block";
+//           giftImage.setAttribute("src", randomGiftImage);
+//           var voucherTitle = prizeForm.querySelector(".text-center.text-xl.text-white");
+//           if (randomDiscount === 150) {
+//             voucherTitle.textContent = "Voucher Coffee Laha";
+//             voucherTitle.style.marginleft="56px"
+//             // Thêm các xử lý đặc biệt cho voucher "coffee laha" tại đây
+//           } else {
+//             voucherTitle.textContent = "Voucher giảm giá " + randomDiscount + "k";
+//           }
+//           this.classList.add("flipped");
+//           isGiftFlipped = true;
 
-  giftImage.addEventListener('mouseout', () => {
-    if (!isGiftSelected) {
-        giftImage.style.transform = 'scale(1)'; // Phục hồi kích thước ảnh
-      }
-  });
+//           setTimeout(function() {
+//             prizeForm.style.display = "block";
+//             showOverlay();
+//             // overlay3.style.display = "block";
+//             giftDiv.style.opacity = "0.5";
+//             giftDiv.style.pointerEvents = 'none';
+//           }, 500);
+//         } else {
+//           discountInfo.textContent = "Không có mã giảm giá";
+//           showMessage("Hộp quà này không có mã giảm giá");
+//         }
+//       }
+//     }
+//   });
+// }
 
-  giftImage.addEventListener('click', () => {
-    if (!isGiftSelected) {
-        // Ẩn ảnh "gift" đã chọn và hiển thị ảnh tương ứng
-        giftImage.style.display = 'none';
-        const innerImageSrc = `img/${index + 1}.png`;
-        const innerImage = document.createElement('img');
-        innerImage.setAttribute('src', innerImageSrc);
-        innerImage.classList.add('inner-image');
-  
-        message.innerHTML = '';
-        message.appendChild(innerImage);
-        overlay_message.style.display = 'flex'; // Hiển thị overlay_message và thông báo
-  
-        isGiftSelected = true; // Đánh dấu đã chọn
-      }
-  });
-});
-// Đăng ký sự kiện click trên overlay_message để ẩn nó
-overlay_message.addEventListener('click', () => {
-    overlay_message.style.display = 'none'; // Ẩn overlay và thông báo khi click ra khỏi div
-  });
+// var confirmButton = prizeForm.querySelector(".btn-comfirm");
+// confirmButton.addEventListener("click", function(event) {
+//   event.preventDefault();
+//   prizeForm.style.display = "none";
+//   // overlay3.style.display = "none";
+//   hideOverlay();
+//   giftDiv.style.opacity = "1";
+//   giftDiv.style.pointerEvents = 'auto';
+// });
+
+
+
+// // Hàm hiển thị thông báo
+// function showMessage(message) {
+//   prizeForm.querySelector(".text-info1").textContent = message;
+//   prizeForm.style.display = "block";
+// }
+
+
+// bntwin.onclick= function(){
+//   var winner = document.getElementById("list-winn");
+//   winner.style.display="block";
+// }
+
+// // end 
+
+
+// var closemodal= document.querySelector('.fa-xmark');
+// var formwon = document.getElementById("list-winn")
+
+// closemodal.onclick = function(){
+//   formwon.style.display='none';
+// }
 
 
 
